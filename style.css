@@ -1,0 +1,28 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+    background-color: rgb(255, 255, 255); 
+    color: rgb(228, 159, 159);
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 16px;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+#lista-tarefas { list-style: none; }
+.tarefa {
+background-color: rgb(83, 82, 82);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+header{
+    padding: 24px 32px;
+    border-bottom: 1px solid rgb(226, 188, 231);
+}
